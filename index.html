@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Duhoot</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="menu small">
+			<div class="menu-links">
+				<a href="#" class="menu-link">reality</a>
+				<a href="#" class="menu-link">living</a>
+				<a href="#" class="menu-link">education</a>
+				<a href="#" class="menu-link">entertainment</a>
+				<a href="#" class="menu-link">mobility</a>
+				<a href="#" class="menu-link search-link"><i class="fas fa-search"></i></a>
+				<a href="#" class="menu-link login-link">login</a>
+			</div>
+		</div>
+		<div class="menu-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="menu-wrapper-inner">
+							<a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
+							<nav>
+								<div class="menu large">
+									<a href="#" class="menu-link">reality</a>
+									<a href="#" class="menu-link">living</a>
+									<a href="#" class="menu-link">education</a>
+									<a href="#" class="menu-link">entertainment</a>
+									<a href="#" class="menu-link">mobility</a>
+									<a href="#" class="menu-link search-link"><i class="fas fa-search"></i></a>
+									<a href="#" class="menu-link login-link"><i class="fas fa-user"></i>login</a>
+								</div>
+								<div class="burger-button">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</nav>
+						</div>
+						
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="search-slide">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-6">
+						<div class="form-search">
+							<div class="heading">What are you looking for?</div>
+							<form action="#">
+								<div class="dropdown-flex">
+									<div class="dropdown-input cities-top" onclick="$(this).toggleClass('active')"><span>Dubai</span><i class="fas fa-chevron-down"></i>
+										<div class="dropdown-cities-top">
+											<ul>
+												<li>Moscow</li>
+												<li>St.Petersburg</li>
+												<li>Cherepovets</li>
+												<li>New York</li>
+												<li>Tokyo</li>
+												<li>Dubai</li>
+											</ul>
+										</div>
+									</div>
+									<div class="dropdown-input education" onclick="$(this).toggleClass('active')"><span>Education</span><i class="fas fa-chevron-down"></i>
+										<div class="dropdown-education">
+											<ul>
+												<li>A</li>
+												<li>B</li>
+												<li>C</li>
+												<li>D</li>
+												<li>E</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="input-search"><input type="text" placeholder="keyword, name, date..."></div>
+								<input type="submit" value="SEARCH">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="filter-top-slide">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="filter-panel">
+							<div class="filter-category">
+								<a href="#" class="active">Recommended</a>
+								<a href="#">Latest</a>
+								<a href="#">Highlights</a>
+							</div>
+							<div class="filter-city">
+								
+								<div class="dropdown-input cities-bottom" onclick="$(this).toggleClass('active')"><span>Dubai</span><i class="fas fa-chevron-down"></i>
+									<div class="dropdown-cities-bottom">
+										<ul>
+											<li title="Moscow">Moscow</li>
+											<li title="St.Petersburg">St.Petersburg</li>
+											<li title="Cherepovets">Cherepovets</li>
+											<li title="New York">New York</li>
+											<li title="Tokyo">Tokyo</li>
+											<li title="Dubai">Dubai</li>
+										</ul>
+									</div>
+								</div>
+								<a href="#" class="hidemap-button"><span>Hide Map</span><i class="fas fa-map-marker-alt"></i></a>
+							</div>
+							<div class="filter-buttons">
+								<div class="title">Filter:</div>
+								<a href="#house" class="filter-button house"></a>
+								<a href="#body" class="filter-button body"></a>
+								<a href="#learn" class="filter-button learn"></a>
+								<a href="#music" class="filter-button music"></a>
+								<a href="#bus" class="filter-button bus"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="filter-results-slide">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-card small house">
+							<div class="front-side">
+								<div class="top-half">
+									<img src="img/top-side1.png" alt="">
+									<div class="category house"></div>
+									<div class="hover-show">
+										<div class="showmore-button">
+											<i class="fas fa-search"></i><span>Show More</span>
+										</div>
+									</div>
+								</div>
+								<div class="bottom-half">
+									<div class="title">2 bedroom house for rent in Dubai</div>
+									<div class="rating-place-wrapper">
+										<a href="#" class="place">Vision Agency</a>
+										<div class="rating-wrapper">
+											<div class="rating"></div>
+											<div class="count">(365)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="back-side">
+								<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt id delectus quidem maiores quia laudantium maxime repellat, nobis itaque ipsum dolores! Suscipit nulla distinctio eos ut, accusamus fugit voluptas facere.</div>
+								<div class="back-button">Back</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-card small body">
+							<div class="front-side">
+								<div class="top-half">
+									<img src="img/top-side1.png" alt="">
+									<div class="category house"></div>
+									<div class="hover-show">
+										<div class="showmore-button">
+											<i class="fas fa-search"></i><span>Show More</span>
+										</div>
+									</div>
+								</div>
+								<div class="bottom-half">
+									<div class="title">2 bedroom house for rent in Dubai</div>
+									<div class="rating-place-wrapper">
+										<a href="#" class="place">Vision Agency</a>
+										<div class="rating-wrapper">
+											<div class="rating"></div>
+											<div class="count">(365)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="back-side">
+								<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt id delectus quidem maiores quia laudantium maxime repellat, nobis itaque ipsum dolores! Suscipit nulla distinctio eos ut, accusamus fugit voluptas facere.</div>
+								<div class="back-button">Back</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-card small learn">
+							<div class="front-side">
+								<div class="top-half">
+									<img src="img/top-side1.png" alt="">
+									<div class="category house"></div>
+									<div class="hover-show">
+										<div class="showmore-button">
+											<i class="fas fa-search"></i><span>Show More</span>
+										</div>
+									</div>
+								</div>
+								<div class="bottom-half">
+									<div class="title">2 bedroom house for rent in Dubai</div>
+									<div class="rating-place-wrapper">
+										<a href="#" class="place">Vision Agency</a>
+										<div class="rating-wrapper">
+											<div class="rating"></div>
+											<div class="count">(365)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="back-side">
+								<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt id delectus quidem maiores quia laudantium maxime repellat, nobis itaque ipsum dolores! Suscipit nulla distinctio eos ut, accusamus fugit voluptas facere.</div>
+								<div class="back-button">Back</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-card small music">
+							<div class="front-side">
+								<div class="top-half">
+									<img src="img/top-side1.png" alt="">
+									<div class="category house"></div>
+									<div class="hover-show">
+										<div class="showmore-button">
+											<i class="fas fa-search"></i><span>Show More</span>
+										</div>
+									</div>
+								</div>
+								<div class="bottom-half">
+									<div class="title">2 bedroom house for rent in Dubai</div>
+									<div class="rating-place-wrapper">
+										<a href="#" class="place">Vision Agency</a>
+										<div class="rating-wrapper">
+											<div class="rating"></div>
+											<div class="count">(365)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="back-side">
+								<div class="description"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eligendi odit aspernatur asperiores quia laudantium porro velit. Eligendi neque, quos quo at eos earum qui harum, temporibus dolore laboriosam aperiam.</div>
+								<div>Sint id quasi nobis veritatis magni veniam dolorem facilis natus. Provident tenetur totam at, iusto distinctio rerum molestiae recusandae voluptatum nesciunt. Corporis voluptates molestiae voluptas eos! Voluptatum ut illum, numquam!</div></div>
+								<div class="back-button">Back</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-card small bus">
+							<div class="front-side">
+								<div class="top-half">
+									<img src="img/top-side1.png" alt="">
+									<div class="category house"></div>
+									<div class="hover-show">
+										<div class="showmore-button">
+											<i class="fas fa-search"></i><span>Show More</span>
+										</div>
+									</div>
+								</div>
+								<div class="bottom-half">
+									<div class="title">2 bedroom house for rent in Dubai</div>
+									<div class="rating-place-wrapper">
+										<a href="#" class="place">Vision Agency</a>
+										<div class="rating-wrapper">
+											<div class="rating"></div>
+											<div class="count">(365)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="back-side">
+								<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt id delectus quidem maiores quia laudantium maxime repellat, nobis itaque ipsum dolores! Suscipit nulla distinctio eos ut, accusamus fugit voluptas facere.</div>
+								<div class="back-button">Back</div>
+							</div>
+						</div>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-12"><a href="#" class="loadmore-button"><span>Load more</span><i class="fas fa-arrow-right"></i></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages-slide">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="heading">
+							What can DuHoot offer to you?
+						</div>
+						<div class="subtitle">
+							Etiam cursus ipsum quis enim faucibus
+						</div>
+						<div class="pics-wrapper">
+							<div class="row">
+								<div class="col-md-1"></div>
+								<div class="col-md-2 pics-wrapper-inner">
+									<div class="pic house-pic active"></div>
+								</div>
+								<div class="col-md-2 pics-wrapper-inner">
+									<div class="pic body-pic"></div>
+								</div>
+								<div class="col-md-2 pics-wrapper-inner">
+									<div class="pic learn-pic"></div>
+								</div>
+								<div class="col-md-2 pics-wrapper-inner">
+									<div class="pic music-pic"></div>
+								</div>
+								<div class="col-md-2 pics-wrapper-inner">
+									<div class="pic bus-pic"></div>
+								</div>
+							</div>
+							<div class="row">	
+								<div class="col-12">
+									<div class="pics-heading">Reality</div>
+								</div>
+								<div class="col-lg-1"></div>
+								<div class="col-lg-5">
+									<div class="pic-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nam dignissimos natus, animi maxime sint mollitia placeat? Velit totam, aspernatur eum quisquam accusamus ea molestiae, maxime, sapiente nulla maiores aut!</div>
+								</div>
+								<div class="col-lg-5">
+									<div class="pic-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio nam dignissimos natus, animi maxime sint mollitia placeat? Velit totam, aspernatur eum quisquam accusamus ea molestiae, maxime, sapiente nulla maiores aut!</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row subscribe-border">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<div class="subscribe">
+						<div class="heading">Subscribe to our newsletter</div>
+						<form action="#">
+							<div class="subscribe-input-wrapper">
+								<label for="email"><i class="far fa-envelope"></i></label>
+							<input type="email" id="email" class="subscribe-input" placeholder="your@email.com"><input type="submit" value="SUBSCRIBE">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 col-12">
+					<div class="links">
+						<a href="#" class="category link">
+						Lorem ipsum
+						</a>
+						<a href="#" class="link">lorem lorem</a>
+						<a href="#" class="link">lorem lorem</a>
+						<a href="#" class="link">lorem lorem</a>
+						<a href="#" class="link">lorem lorem</a>
+						<a href="#" class="link">lorem lorem</a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-12">
+					<div class="links">
+						<a href="#" class="category link">
+						Lorem ipsum
+						</a>
+						<a href="#" class="link">lorem lorem</a>
+						<a href="#" class="link">lorem lorem</a>
+						<a href="#" class="link">lorem lorem</a>
+						<a href="#" class="link">lorem lorem</a>
+						<a href="#" class="link">lorem lorem</a>
+					</div>
+				</div>
+				<div class="col-sm-4 col-12">
+					<div class="links">
+						<a href="#" class="category link">
+						Follow us
+						</a>
+						<div class="social">
+							<a href="#" class="link"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="link"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="link"><i class="fab fa-google-plus-g"></i></a>
+							<a href="#" class="link"><i class="fab fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8"></div>
+				<div class="col-sm-4">
+					<div class="copy">Copyright © All Rights reserved</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
